@@ -7,7 +7,7 @@ cara = ['!', '#', '$', '%', '&', '*', '+', ',', '-', '.', ':', ';', '<', '=', '>
 
 mot_de_passe = "" 
 
-for i in range(1, 14):
+for i in range(16):
     n = randint(1, 4)
     if n == 1:
         mot_de_passe += min[randint(0, 25)]
